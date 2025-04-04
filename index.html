@@ -1,75 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esporte AstoNews</title>
+    <title>Jornal Escolar</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-        <div class="logoesporte">AstroEsporte </div>
-        <div class="sloganesporte">Notícias e informações sobre esportes</div>
+        <div class="logo">AstroNews</div>
+        <div class="slogan">Notícias e informações da nossa escola</div>
+        <div class="container">
     </header>
+    
     <nav>
         <ul>
-            <li><a href="https://gustavoalvesbomfim.github.io/Meu-site/">Home</a></li>
+            <li><a href="">Home</a></li>
             <li><a href="#">Notícias</a></li>
             <li><a href="#">Eventos</a></li>
             <li><a href="#">Esportes</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
-
+    
     <div class="container">
         <section class="destaque">
-            <article>
-                <h2>Notícias sobre esportes</h2>
-                <div class="data">Data da publicação</div>
-
-                <!--Área para vídeo ou imagem  -->
+            <article class="noticia-principal">
+                <h2>Título da Notícia Principal</h2>
+                <div class="data">Publicado em: 20 de Maio de 2023</div>
+                
+                <!-- ÁREA PARA VÍDEO OU IMAGEM -->
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i1KbQOtwqZg?si=dKYtsRWv6meYYIAr"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <p>Palmeiras 4 x 0 Corinthians: Verdão esmaga rival em clássico histórico
-
-                    Em um domingo inesquecível para a torcida alviverde, o Palmeiras humilhou o Corinthians com uma goleada por 4 a 0, no Allianz Parque, pela 28ª rodada do Brasileirão 2020. O Verdão dominou desde o início, enquanto o Timão apresentou atuação apática e sem reação.
-                    
-                    Os gols:
-                    
-                    Rony abriu o placar no primeiro tempo, finalizando cruzamento de Viña.
-                    
-                    Luiz Adriano ampliou, aproveitando assistência de Gustavo Scarpa.
-                    
-                    Zé Rafael marcou o terceiro, em jogada rápida.
-                    
-                    Breno Lopes fechou o massacre no segundo tempo.
-                    
-                    O resultado consolidou o Palmeiras na briga pelo título e aumentou a crise no Corinthians, que amargou uma das piores derrotas de sua história no clássico.</p>
-<div class="noticia-secudaria">
-    <article class="noticia-secudaria">
-        <h3>Palmeiras Amassa o Corinthians novamente</h3>
-        <div class="data">Publicado em:</div>
-        <img src="images.jpg" alt="Noticia esporte">
-        <p>Palmeiras 8 x 0 Corinthians (1933): O maior goleado do clássico
-
-            Em 1933, o Palmeiras (então Palestra Itália) aplicou sua maior goleada no clássico: 8 a 0 sobre o Corinthians, no Parque Antártica. O ataque alviverde arrasou, com destaque para Romeu Pellicciari, que marcou quatro gols. O resultado histórico até hoje assombra a rivalidade, sendo o maior placar entre os dois times. Uma humilhação que nunca foi esquecida pela Fiel.</p>
-
-    </article>
-
-</div>
-
-
+                <!-- OU -->
+                <!-- <img src="imagem-destaque.jpg" alt="Imagem da notícia principal"> -->
+                
+                <p>Este é o texto completo da notícia principal. Aqui você pode escrever todo o conteúdo da matéria, com detalhes e informações relevantes para os leitores do jornal escolar.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+            </article>
+            
+            <div class="noticias-secundarias">
+                <article class="noticia-secundaria">
+                    <h3>Título da Notícia Secundária 1</h3>
+                    <div class="data">Publicado em: 19 de Maio de 2023</div>
+                    <img src="https://via.placeholder.com/300x200" alt="Imagem da notícia">
+                    <p>Resumo da notícia secundária com algumas informações importantes...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+                
+                <article class="noticia-secundaria">
+                    <h3>Título da Notícia Secundária 2</h3>
+                    <div class="data">Publicado em: 18 de Maio de 2023</div>
+                    <img src="https://via.placeholder.com/300x200" alt="Imagem da notícia">
+                    <p>Resumo da notícia secundária com algumas informações importantes...</p>
+                    <a href="#">Leia mais</a>
+                </article>
+            </div>
+        </section>
+        
+        <section class="outras-noticias">
+            <article class="noticia">
+                <h3>Título de Outra Notícia</h3>
+                <div class="data">Publicado em: 17 de Maio de 2023</div>
+                <img src="https://via.placeholder.com/300x200" alt="Imagem da notícia">
+                <p>Breve resumo da notícia com as informações mais relevantes...</p>
+                <a href="#">Leia mais</a>
+            </article>
+            
+            <article class="noticia">
+                <h3>Título de Outra Notícia</h3>
+                <div class="data">Publicado em: 16 de Maio de 2023</div>
+                <img src="https://via.placeholder.com/300x200" alt="Imagem da notícia">
+                <p>Breve resumo da notícia com as informações mais relevantes...</p>
+                <a href="#">Leia mais</a>
+            </article>
+            
+            <article class="noticia">
+                <h3>Título de Outra Notícia</h3>
+                <div class="data">Publicado em: 15 de Maio de 2023</div>
+                <img src="https://via.placeholder.com/300x200" alt="Imagem da notícia">
+                <p>Breve resumo da notícia com as informações mais relevantes...</p>
+                <a href="#">Leia mais</a>
             </article>
         </section>
-
     </div>
+    
+    <footer>
+        <p>Jornal Escolar - Todos os direitos reservados &copy; 2023</p>
+        <p>Desenvolvido pelos alunos do curso de Informática</p>
+    </footer>
 
+    <script>
+        // JavaScript - Aqui você pode adicionar interatividade
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Jornal escolar carregado!');
+            
+            // Exemplo: Adicionar data atual no footer
+            const anoAtual = new Date().getFullYear();
+            const footerCopyright = document.querySelector('footer p:first-child');
+            footerCopyright.textContent = `Jornal Escolar - Todos os direitos reservados © ${anoAtual}`;
+            
+            // Você pode adicionar mais funcionalidades aqui
+            // como carregar notícias dinamicamente, slideshows, etc.
+        });
+    </script>
 </body>
-
 </html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esporte AstoNews</title>
+    <style>
+        /* CSS - Aqui você pode alterar cores, fontes, tamanhos etc. */
+:root {
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #3498db;
+    --cor-texto: #333;
+    --cor-fundo: #f9f9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.destaque {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.noticia-principal {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.noticia-principal h2 {
+    color: var(--cor-primaria);
+    margin-bottom: 1rem;
+}
+
+.noticia-principal .data {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.noticia-principal img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logoesporte">AstroEsporte </div>
+        <div class="sloganesporte">Notícias e informações sobre esportes</div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://gustavoalvesbomfim.github.io/Meu-site/">Home</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="destaque">
+            <article>
+                <h2>Notícias sobre esportes</h2>
+                <div class="data">Data da publicação</div>
+
+                <!--Área para vídeo ou imagem  -->
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/i1KbQOtwqZg?si=dKYtsRWv6meYYIAr"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Palmeiras 4 x 0 Corinthians: Verdão esmaga rival em clássico histórico
+
+                    Em um domingo inesquecível para a torcida alviverde, o Palmeiras humilhou o Corinthians com uma goleada por 4 a 0, no Allianz Parque, pela 28ª rodada do Brasileirão 2020. O Verdão dominou desde o início, enquanto o Timão apresentou atuação apática e sem reação.
+                    
+                    Os gols:
+                    
+                    Rony abriu o placar no primeiro tempo, finalizando cruzamento de Viña.
+                    
+                    Luiz Adriano ampliou, aproveitando assistência de Gustavo Scarpa.
+                    
+                    Zé Rafael marcou o terceiro, em jogada rápida.
+                    
+                    Breno Lopes fechou o massacre no segundo tempo.
+                    
+                    O resultado consolidou o Palmeiras na briga pelo título e aumentou a crise no Corinthians, que amargou uma das piores derrotas de sua história no clássico.</p>
+<div class="noticia-secudaria">
+    <article class="noticia-secudaria">
+        <h3>Palmeiras Amassa o Corinthians novamente</h3>
+        <div class="data">Publicado em:</div>
+        <img src="futebol.jpg" alt="Noticia esporte">
+        <p>Palmeiras 8 x 0 Corinthians (1933): O maior goleado do clássico
+
+            Em 1933, o Palmeiras (então Palestra Itália) aplicou sua maior goleada no clássico: 8 a 0 sobre o Corinthians, no Parque Antártica. O ataque alviverde arrasou, com destaque para Romeu Pellicciari, que marcou quatro gols. O resultado histórico até hoje assombra a rivalidade, sendo o maior placar entre os dois times. Uma humilhação que nunca foi esquecida pela Fiel.</p>
+
+    </article>
+
+</div>
+
+
+            </article>
+        </section>
+
+    </div>
+    <script>
+        // JavaScript - Aqui você pode adicionar interatividade
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Jornal escolar carregado!');
+            
+            // Exemplo: Adicionar data atual no footer
+            const anoAtual = new Date().getFullYear();
+            const footerCopyright = document.querySelector('footer p:first-child');
+            footerCopyright.textContent = `Jornal Escolar - Todos os direitos reservados © ${anoAtual}`;
+            
+            // Você pode adicionar mais funcionalidades aqui
+            // como carregar notícias dinamicamente, slideshows, etc.
+        });
+    </script>
+
+</body>
+
+</html>
